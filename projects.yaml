@@ -3,16 +3,27 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
+  - category: "Components"
+    title: "Components"
+
   # - category: "data-engineering"
   #   title: "Machine Learning & Data Engineering"
   #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
 
 labels:
+  - label: "Article"
+    name: "Article"
+  - label: "Demonstrations"
+    name: "Demonstrations"
   # - label: "python"
   #   image: "https://www.python.org/static/favicon.ico"
   #   description: "Best-of list with Python projects"
 
 projects:
+  - name: "Flutter Catalog"
+    github_id: X-Wei/flutter_catalog
+    labels: ["Demonstrations"]
+    category: Components
   # - name: best-of-ml-python
   #   github_id: ml-tooling/best-of-ml-python
   #   labels: ["python"]
