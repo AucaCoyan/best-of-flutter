@@ -3,48 +3,52 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
-  - category: "Components"
-    title: "Components"
-  - category: "UI"
-    title: "UI"
+  - category: "ArticlesIntroduction"
+    name: "Articles: Introduction"
+  - category: "ComponentsDemonstrations"
+    name: "Components: Demonstrations"
+  - category: "ComponentsUI"
+    title: "Components: UI"
 
   # - category: "data-engineering"
   #   title: "Machine Learning & Data Engineering"
   #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
 
 labels:
-  - label: "Article"
-    name: "Article"
-  - label: "Demonstrations"
-    name: "Demonstrations"
-  - label: "UI"
-    name: "UI"
   # - label: "python"
   #   image: "https://www.python.org/static/favicon.ico"
   #   description: "Best-of list with Python projects"
 
 projects:
+  # Articles: Introduction
+  - name: "Google IO 2018"
+    homepage: https://medium.com/flutter-io/building-beautiful-flexible-user-interfaces-with-flutter-material-theming-and-official-material-13ae9279ef19
+    category: ArticlesIntroduction
+  - name: "Presentation"
+    homepage: https://speakerdeck.com/hjjunior/why-i-chose-flutter
+    category: ArticlesIntroduction
+  - name: "Flutter Web"
+    homepage: https://medium.com/flutter-community/ins-and-outs-of-flutter-web-7a82721dc19a
+    category: ArticlesIntroduction
+
+  # Components
+  # Components Demonstrations
   - name: "Official Gallery"
-    homepage: flutter/gallery
-    category: Components
-    labels: ["Demonstrations"]
+    github_id: flutter/gallery
+    category: ComponentsDemostrations
   - name: "Flutter Examples"
     github_id: nisrulz/flutter-examples
-    category: Components
-    labels: ["Demonstrations"]
+    category: ComponentsDemonstrations
   - name: "Generative Art"
     github_id: Solido/flutter-d-art
-    category: Components
-    labels: ["Demonstrations"]
+    category: ComponentsDemonstrations
   - name: "Flutter Catalog"
     github_id: X-Wei/flutter_catalog
-    category: Components
-    labels: ["Demonstrations"]
+    category: ComponentsDemonstrations
 
   - name: "StaggeredGridView"
     github_id: letsar/flutter_staggered_grid_view
-    category: Components
-    labels: ["UI"]
+    category: ComponentsUI
   # - name: best-of-ml-python
   #   github_id: ml-tooling/best-of-ml-python
   #   labels: ["python"]
