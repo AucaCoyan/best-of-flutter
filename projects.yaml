@@ -5,6 +5,8 @@ configuration:
 categories:
   - category: "Components"
     title: "Components"
+  - category: "UI"
+    title: "UI"
 
   # - category: "data-engineering"
   #   title: "Machine Learning & Data Engineering"
@@ -15,15 +17,34 @@ labels:
     name: "Article"
   - label: "Demonstrations"
     name: "Demonstrations"
+  - label: "UI"
+    name: "UI"
   # - label: "python"
   #   image: "https://www.python.org/static/favicon.ico"
   #   description: "Best-of list with Python projects"
 
 projects:
+  - name: "Official Gallery"
+    homepage: flutter/gallery
+    category: Components
+    labels: ["Demonstrations"]
+  - name: "Flutter Examples"
+    github_id: nisrulz/flutter-examples
+    category: Components
+    labels: ["Demonstrations"]
+  - name: "Generative Art"
+    github_id: Solido/flutter-d-art
+    category: Components
+    labels: ["Demonstrations"]
   - name: "Flutter Catalog"
     github_id: X-Wei/flutter_catalog
-    labels: ["Demonstrations"]
     category: Components
+    labels: ["Demonstrations"]
+
+  - name: "StaggeredGridView"
+    github_id: letsar/flutter_staggered_grid_view
+    category: Components
+    labels: ["UI"]
   # - name: best-of-ml-python
   #   github_id: ml-tooling/best-of-ml-python
   #   labels: ["python"]
